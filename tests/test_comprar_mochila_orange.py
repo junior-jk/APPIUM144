@@ -16,7 +16,7 @@ def test_comprar_mochila_orange():
     options.load_capabilities({
         "platformName": "Android",
         "appium:platformVersion": "13.0",
-        "appium:deviceName": "emulator5554",
+        "appium:deviceName": "emulator-5554",
         "appium:deviceOrientation": "portrait",
         "appium:appPackage": "com.saucelabs.mydemoapp.android",
         "appium:appActivity": "com.saucelabs.mydemoapp.android.view.activities.SplashActivity",
